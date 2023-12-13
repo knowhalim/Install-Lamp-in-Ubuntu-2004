@@ -20,5 +20,5 @@ If you encounter issue, it might be MariaDB server and client failed to install.
 `mysql_secure_installation`
 
 # Start and enable MariaDB
-sudo systemctl start mariadb
-sudo systemctl enable mariadb
+`sudo systemctl start mariadb`
+`sudo systemctl enable mariadb`
