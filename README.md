@@ -16,9 +16,12 @@ To Install Git:
 NOTE:
 You need to run `mysql_secure_installation` after the installation.
 If you encounter issue, it might be MariaDB server and client failed to install. If so, just run the following command:
+
 `sudo apt install -y mariadb-server mariadb-client`
+
 `mysql_secure_installation`
 
 # Start and enable MariaDB
 `sudo systemctl start mariadb`
+
 `sudo systemctl enable mariadb`
