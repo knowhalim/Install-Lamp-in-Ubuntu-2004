@@ -7,7 +7,6 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y apache2 apache2-utils
 
 # Check status, start and enable Apache on boot
-sudo systemctl status apache2
 sudo systemctl start apache2
 sudo systemctl enable apache2
 
