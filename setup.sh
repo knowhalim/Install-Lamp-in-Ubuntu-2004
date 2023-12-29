@@ -31,6 +31,8 @@ sudo apt install -y php7.4 libapache2-mod-php7.4 php7.4-mysql php-common php7.4-
 
 # Enable PHP module for Apache
 sudo a2enmod php7.4
+sudo apt install php-xml
+sudo apt-get install php-zip
 sudo systemctl restart apache2
 
 # Secure the MariaDB installation (interactive script)
